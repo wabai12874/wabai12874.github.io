@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+
+}
+.image1{
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.text{
+    position: absolute;
+    top: 270px;
+    left: 600px;
+}
+.text1{
+    color: #b3b3b3;
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+.text2{
+    color: white;
+    font-size: 55px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+.text3{
+    padding-top: 30px;
+    color:black;
+    font-size: 55px;
+}
+.text5{
+    padding-top: 30px;
+    color:white;
+    font-size: 55px;
+}
