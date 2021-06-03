@@ -37,3 +37,45 @@ body{
     color:white;
     font-size: 55px;
 }
+li{
+    list-style: none;
+
+}
+
+p{
+    font-size: 23px;
+    color: #808080;
+    line-height: 45px;
+}
+.about{
+    background-color: white;
+    color: black;
+    padding-left: 200px;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+.projects{
+    padding-left: 600px;
+    padding-bottom: 50px;
+}
+.href{
+    text-decoration: none;
+    color: #ffcb12;
+}
+.nav{
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px #404040;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.navbar{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    padding-bottom: 50px;
+}
