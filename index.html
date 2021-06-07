@@ -9,15 +9,15 @@
 <!--the navbar div contains 3 navbar buttons to help navigate the user easily through the content -->
 
 <div class="navbar">
-    <input type="button" class="nav" value="Home">
-    <input type="button" class="nav" value="About Me">
-    <input type="button" class="nav" value="Past Projects">
+    <a href="#home"><input type="button" class="nav"  value="Home"></a>
+    <a href="#about"><input type="button" class="nav" value="About Me"></a>
+    <a href="#past"><input type="button" class="nav" value="Past Projects"></a>
 
 </div>
 
 <!--this small div contains my image as displayed by the website. height and width set as the original image dimensions-->
 
-<div class="image1">
+<div class="image1" id="home">
     <img src="images/portfolio.jpg" width="600"  height="600">
 </div>
 
@@ -35,7 +35,7 @@
 it also contains a short paragraph on why i decided to take programming course at Moringa School
 -->
 
-<div class="about">
+<div class="about" id="about">
     <h1 class="text3">About Me.</h1>
     <p>A graduate from the Jomo Kenyatta University of Agriculture and Technology.<br>
         I am a creative in the online space. Well versed in UI Design and Mockups.<br>
@@ -57,7 +57,7 @@ the repositories of my projects but not the actual live websites since they are 
 however, as soon as the webhost service provider is up and running, i will update the href links to quickly
 redirect the user to the live webpages-->
 
-<div class="projects">
+<div class="projects" id="past">
     <h1 class="text5">Past Projects.</h1>
     <p>
         <b style="color: white;">E-SHAMBA.</b><br>

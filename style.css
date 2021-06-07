@@ -79,3 +79,6 @@ p{
     left: 20px;
     padding-bottom: 50px;
 }
+html{
+    scroll-behavior: smooth;
+}
