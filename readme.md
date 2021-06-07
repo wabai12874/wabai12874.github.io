@@ -18,7 +18,7 @@ on github. All that is needed is an active internet
 connection
 
 ## Project link for live webpage.
-[https://wabai12874.github.io/](https://choosealicense.com/licenses/mit/)
+[https://wabai12874.github.io/](https://wabai12874.github.io/)
 
 ## Contributing
 
