@@ -72,12 +72,16 @@ p{
     background-color: transparent;
     color: white;
     border: none;
+    transition: 0.4s;
+
 }
 .navbar{
     position: fixed;
     top: 10px;
     left: 20px;
     padding-bottom: 50px;
+    transition: 0.4s;
+
 }
 html{
     scroll-behavior: smooth;
