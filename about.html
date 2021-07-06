@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-  <title>Generic - Editorial by HTML5 UP</title>
+  <title>About Brian Maringa.</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
@@ -99,30 +99,40 @@
       </section>
       <!-- Form -->
 
-      <form method="post" action="#">
+      <form action="https://gmail.us6.list-manage.com/subscribe/post" method="POST" >
+        <input type="hidden" name="u" value="19022b383165745d2c86b00d0">
+        <input type="hidden" name="id" value="373f111d03">
         <h3>Send Message</h3>
 
         <div class="row gtr-uniform">
           <div class="col-6 col-12-xsmall">
-            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+            <input type="text" name="MERGE1" id="MERGE1" size="25" value="" required placeholder="Name">
           </div>
           <div class="col-6 col-12-xsmall">
-            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+            <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Email" required value="">
           </div>
 
 
           <div class="col-12">
-            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+            <textarea type="text" name="MERGE2" id="MERGE2" size="25" value="" placeholder="Enter your message" rows="6"></textarea>
           </div>
           <!-- Break -->
           <div class="col-12">
             <ul class="actions">
-              <li><input type="submit" value="Send Message" class="primary" /></li>
+              <li><input type="submit" value="Send Message" class="primary" onclick="alertbox()"/></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </div>
         </div>
       </form>
+      <script>
+        function alertbox(){
+          let name=document.getElementById("MERGE1").value;
+          console.log(name);
+          alert("Thanks " +name+ " .Your message has been sent successfully");
+
+        }
+      </script>
 
 
 

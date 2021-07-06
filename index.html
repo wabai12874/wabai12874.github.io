@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>BrianMaringa</title>
+		<title>Brian Maringa</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -261,7 +261,7 @@
 								</section>
 							<!-- Form -->
 
-							<form action="https://gmail.us6.list-manage.com/subscribe/post" method="POST">
+							<form action="https://gmail.us6.list-manage.com/subscribe/post" method="POST" >
 								<input type="hidden" name="u" value="19022b383165745d2c86b00d0">
 								<input type="hidden" name="id" value="373f111d03">
 								<h3>Send Message</h3>
@@ -281,12 +281,21 @@
 									<!-- Break -->
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="submit" value="Send Message" class="primary" onclick="alertbox()"/></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</div>
 								</div>
 							</form>
+							<script>
+								function alertbox(){
+									let name=document.getElementById("MERGE1").value;
+									console.log(name);
+									alert("Thanks " +name+ " .Your message has been sent successfully");
+
+								}
+							</script>
+
 
 
 
